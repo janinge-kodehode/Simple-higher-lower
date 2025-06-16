@@ -21,8 +21,8 @@ document.getElementById("btn1").onclick = function () {
 
 document.getElementById("btn2").onclick = function () {
   y = Math.floor(Math.random() * 20) + 1;
-  document.getElementById("diceBtn").innerHTML = z;
-  console.log("Lower:", z);
+  document.getElementById("diceBtn").innerHTML = y;
+  console.log("Lower:", y);
   if (y < x) {
     document.getElementById("result").innerHTML = "You win!";
   } else {
